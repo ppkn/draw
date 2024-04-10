@@ -1,0 +1,29 @@
+main {
+  width: 20em;
+  margin: 0px auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+#canvas {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+}
+
+.cell {
+  width: 2.5em;
+  height: 2.5em;
+  box-sizing: border-box;
+  border: 1px dashed dodgerblue;
+}
+
+.cell.filled {
+  background-color: black;
+}
+
+fieldset {
+  margin-top: 2em;
+}
